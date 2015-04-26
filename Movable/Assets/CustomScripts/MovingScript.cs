@@ -3,40 +3,34 @@ using System.Collections;
 
 public class MovingScript : MonoBehaviour {
 
-	private Ray m_Ray;
-	private RaycastHit m_RayCastHit;
-	private GameObject m_CurrentMovableObject;
+	private const float SCALE_COEFICIENT = 10f;
+	
+	private GameObject movableObject;
 
-	void Update () 
-	{
+	void Update () {
 		if (Input.touches.Length == 1) {
-			Touch touchedFinger = Input.touches [0];
-
-
-			switch (touchedFinger.phase) {
-			case TouchPhase.Began: 
-				m_Ray = Camera.main.ScreenPointToRay (touchedFinger.position);
-				if (Physics.Raycast (m_Ray.origin, m_Ray.direction, out m_RayCastHit, Mathf.Infinity)) {
-					GameObject movableObj = m_RayCastHit.collider.gameObject;
-					if (movableObj) {
-						m_CurrentMovableObject = movableObj;
-					}
+			if (CustomScriptUtils.isAnyTouchEnded(Input.touches)) {
+				movableObject = null;
+				return;
+			}
+			
+			if (CustomScriptUtils.isAnyTouchBegan(Input.touches)) {
+				GameObject movableObj = CustomScriptUtils.getTouchedGameObject(Input.touches);
+				if (movableObj) {
+					movableObject = movableObj;
 				}
-				break;
-			case TouchPhase.Moved:
-				if (m_CurrentMovableObject) { 
-
-					float currentPositionX = m_CurrentMovableObject.transform.position.x + touchedFinger.deltaPosition.x / 10f;
-					float currentPositionY = m_CurrentMovableObject.transform.position.y + touchedFinger.deltaPosition.y / 10f;
-					m_CurrentMovableObject.transform.position = new Vector3(
-						currentPositionX, currentPositionY, m_CurrentMovableObject.transform.position.z);
+				
+				return;
+			}
+			
+			if (CustomScriptUtils.isAnyTouchMoved(Input.touches)) {
+				if (movableObject) { 
+					Touch touchedFinger = Input.touches[0];
+					
+					float currentPositionX = movableObject.transform.position.x + touchedFinger.deltaPosition.x / SCALE_COEFICIENT;
+					float currentPositionY = movableObject.transform.position.y + touchedFinger.deltaPosition.y / SCALE_COEFICIENT;
+					movableObject.transform.position = new Vector3(currentPositionX, currentPositionY, movableObject.transform.position.z);
 				}
-				break;
-			case TouchPhase.Ended:
-				m_CurrentMovableObject = null;
-				break;
-			default:
-				break;
 			}
 		}
 	}

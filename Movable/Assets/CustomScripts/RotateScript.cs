@@ -23,7 +23,7 @@ public class RotateScript : MonoBehaviour {
 				return;
 			}
 			
-			if (CustomScriptUtils.isAnyTouchMoved(Input.touches)) {
+			if (CustomScriptUtils.isAnyTouchMoved(Input.touches) && rotateableObject) {
 				rotateableObject.transform.Rotate(0, getMinimalTouchesDelta() * ROTATION_RATE, 0, Space.World);
 			}
 		}

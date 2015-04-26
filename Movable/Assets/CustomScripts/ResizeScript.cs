@@ -28,7 +28,7 @@ public class ResizeScript : MonoBehaviour {
 				return;
 			}
 
-			if (CustomScriptUtils.isAnyTouchMoved(Input.touches)) {
+			if (CustomScriptUtils.isAnyTouchMoved(Input.touches) && resizableObject) {
 				screenHeight = Screen.height;
 				coeficient = screenHeight / (MAX_RESIZE - 1f);
 
