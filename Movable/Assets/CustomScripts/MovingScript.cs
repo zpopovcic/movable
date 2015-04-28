@@ -3,11 +3,9 @@ using System.Collections;
 
 public class MovingScript : MonoBehaviour {
 
-	private const float SCALE_COEFICIENT = 10f;
-	
 	private GameObject movableObject;
 
-	void Update () {
+	void Update() {
 		if (Input.touches.Length == 1) {
 			if (CustomScriptUtils.isAnyTouchEnded(Input.touches)) {
 				movableObject = null;
@@ -24,14 +22,14 @@ public class MovingScript : MonoBehaviour {
 			}
 			
 			if (CustomScriptUtils.isAnyTouchMoved(Input.touches)) {
-				if (movableObject) { 
-					Touch touchedFinger = Input.touches[0];
-					
-					float currentPositionX = movableObject.transform.position.x + touchedFinger.deltaPosition.x / SCALE_COEFICIENT;
-					float currentPositionY = movableObject.transform.position.y + touchedFinger.deltaPosition.y / SCALE_COEFICIENT;
-					movableObject.transform.position = new Vector3(currentPositionX, currentPositionY, movableObject.transform.position.z);
+				if (movableObject) {
+					Touch touch = Input.GetTouch(0);
+					Vector3 cameraTransform = Camera.main.transform.InverseTransformPoint(0, 0, 0);
+					movableObject.transform.position = Camera.main.ScreenToWorldPoint(new Vector3 (touch.position.x, touch.position.y, cameraTransform.z - 0.5f));
+
 				}
 			}
 		}
+
 	}
 }
