@@ -10,7 +10,7 @@ public class ShowObject : MonoBehaviour {
 
 	void Update() {
 		if (button == null) {
-			button = GameObject.Find("TakePhotoButton");
+			button = GameObject.Find("ButtonTakePhoto");
 		}
 		if (null != screenshotFile) {
 			Debug.Log("File " + screenshotFile + " " + File.Exists(screenshotFile));

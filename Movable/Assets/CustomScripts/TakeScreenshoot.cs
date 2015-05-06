@@ -10,7 +10,7 @@ public class TakeScreenshoot : MonoBehaviour {
 
 	public void OnClick () {
 		if (i == 0) {
-			gameObject.SetActive(false);
+			//gameObject.SetActive(false);
 			String time = DateTime.Now.ToString("yyyyMMdd_hhmmssfff");
 			string filename = SCREENSHOT_NAME + time + ".png";
 
