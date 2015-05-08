@@ -5,6 +5,6 @@ public class ExploreCanvasScript : MonoBehaviour {
 	
 	void Start () {
 		CanvasChanger.EXPLORE_CANVAS = gameObject;
-		gameObject.SetActive(false);
+		gameObject.SetActive(true);
 	}
 }

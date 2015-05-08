@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: efbd664fb5815584ab6841c9e0ec8c90
+timeCreated: 1431039932
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Cube.2
+    100004: Cube.3
+    100006: Cube.4
+    100008: Cube.4.2
+    100010: Cube.5
+    100012: Cube.6
+    100014: Cube.7
+    100016: Cube.8
+    100018: HyperNURBS.1
+    100020: HyperNURBS.2
+    100022: HyperNURBS.3
+    100024: HyperNURBS.4
+    100026: HyperNURBS.5
+    100028: HyperNURBS.6
+    100030: HyperNURBS.7
+    100032: Light
+    100034: Light.1
+    100036: Light.2
+    100038: Light.3
+    100040: Light.4
+    100042: Null
+    100044: Null.2
+    100046: Stand 1
+    100048: Stand 2
+    100050: Stand 3
+    100052: Stand 4
+    100054: //RootNode
+    400000: Cube
+    400002: Cube.2
+    400004: Cube.3
+    400006: Cube.4
+    400008: Cube.4.2
+    400010: Cube.5
+    400012: Cube.6
+    400014: Cube.7
+    400016: Cube.8
+    400018: HyperNURBS.1
+    400020: HyperNURBS.2
+    400022: HyperNURBS.3
+    400024: HyperNURBS.4
+    400026: HyperNURBS.5
+    400028: HyperNURBS.6
+    400030: HyperNURBS.7
+    400032: Light
+    400034: Light.1
+    400036: Light.2
+    400038: Light.3
+    400040: Light.4
+    400042: Null
+    400044: Null.2
+    400046: Stand 1
+    400048: Stand 2
+    400050: Stand 3
+    400052: Stand 4
+    400054: //RootNode
+    2300000: Cube
+    2300002: Cube.2
+    2300004: Cube.3
+    2300006: Cube.4
+    2300008: Cube.4.2
+    2300010: Cube.5
+    2300012: Cube.6
+    2300014: Cube.7
+    2300016: Cube.8
+    2300018: Stand 1
+    2300020: Stand 2
+    2300022: Stand 3
+    2300024: Stand 4
+    3300000: Cube
+    3300002: Cube.2
+    3300004: Cube.3
+    3300006: Cube.4
+    3300008: Cube.4.2
+    3300010: Cube.5
+    3300012: Cube.6
+    3300014: Cube.7
+    3300016: Cube.8
+    3300018: Stand 1
+    3300020: Stand 2
+    3300022: Stand 3
+    3300024: Stand 4
+    4300000: Cube
+    4300002: Cube.2
+    4300004: Cube.3
+    4300006: Cube.4
+    4300008: Cube.5
+    4300010: Cube.6
+    4300012: Cube.7
+    4300014: Cube.8
+    4300016: Cube.4.2
+    4300018: Stand 4
+    4300020: Stand 3
+    4300022: Stand 2
+    4300024: Stand 1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
