@@ -9,6 +9,7 @@ public class CanvasChanger : MonoBehaviour {
 	public static GameObject ALL_PICTURES_CANVAS;
 	public static GameObject ALL_OBJECTS_CANVAS;
 	public static GameObject OBJECT_GALLERY_CANVAS;
+	public static GameObject CREATE_TARGET_CANVAS;
 
 	public static void allPicturesToPictureGallery() {
 		PICTURE_GALLERY_CANVAS.SetActive(true);
@@ -54,6 +55,26 @@ public class CanvasChanger : MonoBehaviour {
 	public void objectGalleryToAllObjects() {
 		OBJECT_GALLERY_CANVAS.SetActive(false);
 		ALL_OBJECTS_CANVAS.SetActive(true);
+	}
+
+	public static void deactivateObjectGallery() {
+		OBJECT_GALLERY_CANVAS.SetActive(false);
+	}
+
+	public static void activateCreateTarget(){
+		AR_CAMERA.SetActive(true);
+		CREATE_TARGET_CANVAS.SetActive(true);
+	}
+
+	public void createTargetToObjectGallery() {
+		CREATE_TARGET_CANVAS.SetActive(false);
+		AR_CAMERA.SetActive(false);
+		OBJECT_GALLERY_CANVAS.SetActive(true);
+	}
+
+	public static void createTargetToExplore() {
+		CREATE_TARGET_CANVAS.SetActive(false);
+		EXPLORE_CANVAS.SetActive(true);
 	}
 
 }

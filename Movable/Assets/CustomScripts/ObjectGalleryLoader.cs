@@ -52,7 +52,7 @@ public class ObjectGalleryLoader : MonoBehaviour {
 	}
 	
 	private void OnClickMethod(int position) {
-		ScreenshotsFetchScript.currentPosition = position;
+		ObjectPicturesFetchScript.currentPosition = position;
 		CanvasChanger.allObjectsToObjectGallery();
 	}
 	

@@ -4,13 +4,13 @@ using Vuforia;
 
 public class PrepareUDTargetCapturing : MonoBehaviour {
 
-	public ImageTargetBehaviour imageTargetTemplate; 
-
 	public void OnClick() {
-		Debug.Log("EventHandler STARTED!");
+		CanvasChanger.activateCreateTarget();
+		ImageTargetBehaviour imageTargetTemplate = GameObject.Find("UDImageTarget" + ObjectPicturesFetchScript.currentPosition).GetComponent<ImageTargetBehaviour>();
 		UserDefinedTargetEventHandler mTargetHandler = GameObject.FindObjectOfType(typeof(UserDefinedTargetEventHandler)) as UserDefinedTargetEventHandler;
 		mTargetHandler.imageTargetTemplate = imageTargetTemplate;
-		TakeScreenshoot.i = 1;
 		mTargetHandler.Init();
+		CanvasChanger.deactivateObjectGallery();
 	}
+
 }
