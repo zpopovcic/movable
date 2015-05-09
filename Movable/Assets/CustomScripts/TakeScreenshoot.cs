@@ -5,7 +5,7 @@ using System.IO;
 public class TakeScreenshoot : MonoBehaviour {
 
 	private const string SCREENSHOT_NAME = "MovableShot";
-	private static string screenshotFile = null;
+	private static string screenshotFilename = null;
 
 	private GameObject buttonBackEC;
 	private GameObject buttonImageGallery;
@@ -15,13 +15,21 @@ public class TakeScreenshoot : MonoBehaviour {
 	private GameObject buttonFlashEC;
 	private GameObject buttonSettings;
 
+	private GameObject panel;
+
 	void Update() {
 		loadButtons();
-		if (null != screenshotFile) {
-			Debug.Log("File " + screenshotFile + " " + File.Exists(screenshotFile));
-			if (File.Exists(screenshotFile)) {
-				screenshotFile = null;
+		if (null != screenshotFilename) {
+			if (File.Exists(Application.persistentDataPath + Path.DirectorySeparatorChar + screenshotFilename)) {
+				string flnm = screenshotFilename;
+				screenshotFilename = null;
 				setActive(true);
+				CanvasChanger.ALL_PICTURES_CANVAS.SetActive(true);
+				if (null == panel) {
+					panel = GameObject.Find("PanelGallery");
+				}
+				panel.GetComponent<PictureGalleryLoader>().addNewSprite(flnm);
+				CanvasChanger.ALL_PICTURES_CANVAS.SetActive(false);
 			}
 		}
 	}
@@ -34,9 +42,7 @@ public class TakeScreenshoot : MonoBehaviour {
 		string filename = SCREENSHOT_NAME + time + ".png";
 
 		Application.CaptureScreenshot(filename);
-		screenshotFile = Application.persistentDataPath + Path.DirectorySeparatorChar + filename;
-
-		Debug.Log ("Saved screenshot to " + Application.persistentDataPath + "/" + filename);
+		screenshotFilename = filename;
 	}
 
 	private void setActive(bool isActive) {

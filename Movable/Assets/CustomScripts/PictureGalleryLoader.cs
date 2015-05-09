@@ -12,8 +12,6 @@ public class PictureGalleryLoader : MonoBehaviour {
 	private static string folderPath = Application.persistentDataPath;
 	
 	public static List<Sprite> sprites = new List<Sprite>();
-	
-	private FileInfo[] info;
 
 	private int deltaY;
 
@@ -22,20 +20,27 @@ public class PictureGalleryLoader : MonoBehaviour {
 		buttonBackgroundImage = (Instantiate(Resources.Load("ButtonBackgroundImage")) as GameObject).GetComponent<Image>();
 
 		DirectoryInfo dir = new DirectoryInfo(folderPath);
-		info = dir.GetFiles("*.*");
-
-		deltaY = Mathf.Max(0, ((info.Length - 1) / 3) * 357 - 1388);
-
-		gameObject.transform.GetComponentInParent<RectTransform>().sizeDelta = new Vector2(0, deltaY);
-		gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition = new Vector2(0, gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition.y - deltaY / 2);
+		FileInfo[] info = dir.GetFiles("*.*");
 
 		foreach(FileInfo fileInfo in info) {
-			WWW www = new WWW("file://" + folderPath + Path.DirectorySeparatorChar + fileInfo.Name);
-			Texture2D texture2d = new Texture2D(1080, 1920);
-			www.LoadImageIntoTexture(texture2d);
-			sprites.Add(Sprite.Create(texture2d, new Rect(0, 0, texture2d.width, texture2d.height), new Vector2(0.5f, 0.5f)));
-			generateButton(sprites[sprites.Count - 1], sprites.Count - 1);
+			addNewSprite(fileInfo.Name);
 		}
+	}
+
+	public void addNewSprite(string filename) {
+		WWW www = new WWW("file://" + folderPath + Path.DirectorySeparatorChar + filename);
+		Texture2D texture2d = new Texture2D(1080, 1920);
+		www.LoadImageIntoTexture(texture2d);
+		sprites.Add(Sprite.Create(texture2d, new Rect(0, 0, texture2d.width, texture2d.height), new Vector2(0.5f, 0.5f)));
+		generateButton(sprites[sprites.Count - 1], sprites.Count - 1);
+		resizePanel();
+	}
+
+	private void resizePanel() {
+		deltaY = Mathf.Max(0, ((sprites.Count - 1) / 3) * 357 - 1388);
+		
+		gameObject.transform.GetComponentInParent<RectTransform>().sizeDelta = new Vector2(0, deltaY);
+		gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition = new Vector2(0, gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition.y - deltaY / 2);
 	}
 
 	private void generateButton(Sprite Sprite, int position) {
@@ -69,5 +74,5 @@ public class PictureGalleryLoader : MonoBehaviour {
 	private int getY(int position) {
 		return (position / 3) * (-357) - 183 + 1754;
 	}
-	
+
 }
