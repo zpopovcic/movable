@@ -60,6 +60,7 @@ public class CanvasChanger : MonoBehaviour {
 
 	public void exploreToStart() {
 		EXPLORE_CANVAS.SetActive(false);
+		AR_CAMERA.SetActive(false);
 		START_CANVAS.SetActive(true);
 	}
 

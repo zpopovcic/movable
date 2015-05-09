@@ -5,7 +5,7 @@ public class ARCameraScript : MonoBehaviour {
 	
 	void Start () {
 		CanvasChanger.AR_CAMERA = gameObject;
-		gameObject.SetActive(false);
+		gameObject.SetActive(true);
 	}
 
 }
