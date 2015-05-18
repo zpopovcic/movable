@@ -13,7 +13,7 @@ public class PictureGalleryLoader : MonoBehaviour {
 	
 	public static List<Sprite> sprites = new List<Sprite>();
 
-	private int deltaY;
+	private int oldDeltaY = 0;
 
 	void Start () {
 		pictureGalleryButton = (Instantiate(Resources.Load("PictureGalleryButton")) as GameObject).GetComponent<Button>();
@@ -37,10 +37,14 @@ public class PictureGalleryLoader : MonoBehaviour {
 	}
 
 	private void resizePanel() {
-		deltaY = Mathf.Max(0, ((sprites.Count - 1) / 3) * 357 - 1388);
-		
-		gameObject.transform.GetComponentInParent<RectTransform>().sizeDelta = new Vector2(0, deltaY);
-		gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition = new Vector2(0, gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition.y - deltaY / 2);
+		int newDeltaY = Mathf.Max(0, ((sprites.Count - 1) / 3) * 357 - 1388);
+
+		if (newDeltaY > oldDeltaY) {
+			int deltaY = newDeltaY - oldDeltaY;
+			gameObject.transform.GetComponentInParent<RectTransform>().sizeDelta = new Vector2(0, deltaY);
+			gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition = new Vector2(0, gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition.y - deltaY / 2);
+			oldDeltaY = newDeltaY;
+		}	
 	}
 
 	private void generateButton(Sprite Sprite, int position) {
@@ -54,7 +58,7 @@ public class PictureGalleryLoader : MonoBehaviour {
 		newButton.GetComponent<RectTransform>().anchorMin = new Vector2(0, 1);
 		newButton.GetComponent<RectTransform>().anchorMax = new Vector2(0, 1);
 		newButton.transform.position = new Vector3(getX(position), getY(position), 0);
-		newButton.image.sprite = sprites[position];
+		newButton.image.sprite = Sprite.Create(sprites[position].texture, new Rect(0, 420, 1080, 1080), new Vector2(0.5f,0.5f), 1.0f);
 		AddHandler(newButton, position);
 	}
 
