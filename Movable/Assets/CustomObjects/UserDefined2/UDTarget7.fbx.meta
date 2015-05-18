@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: f4a2a1f3721652d4c8e21df1ec4c6c98
+timeCreated: 1431958247
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: base_televisor
+    100002: Camera
+    100004: Lamp
+    100006: pantalla_001
+    100008: pomo_armario_grande
+    100010: pomo_armario_peque_o
+    100012: soporte_pantalla_001
+    100014: soporte_televisor
+    100016: sup_caja_grande003
+    100018: sup_caja_med002
+    100020: sup_caja_peqe001
+    100022: tablon_estante_superior
+    100024: //RootNode
+    400000: base_televisor
+    400002: Camera
+    400004: Lamp
+    400006: pantalla_001
+    400008: pomo_armario_grande
+    400010: pomo_armario_peque_o
+    400012: soporte_pantalla_001
+    400014: soporte_televisor
+    400016: sup_caja_grande003
+    400018: sup_caja_med002
+    400020: sup_caja_peqe001
+    400022: tablon_estante_superior
+    400024: //RootNode
+    2300000: base_televisor
+    2300002: pantalla_001
+    2300004: pomo_armario_grande
+    2300006: pomo_armario_peque_o
+    2300008: soporte_pantalla_001
+    2300010: soporte_televisor
+    2300012: sup_caja_grande003
+    2300014: sup_caja_med002
+    2300016: sup_caja_peqe001
+    2300018: tablon_estante_superior
+    3300000: base_televisor
+    3300002: pantalla_001
+    3300004: pomo_armario_grande
+    3300006: pomo_armario_peque_o
+    3300008: soporte_pantalla_001
+    3300010: soporte_televisor
+    3300012: sup_caja_grande003
+    3300014: sup_caja_med002
+    3300016: sup_caja_peqe001
+    3300018: tablon_estante_superior
+    4300000: sup_caja_grande003
+    4300002: pomo_armario_grande
+    4300004: soporte_televisor
+    4300006: sup_caja_med002
+    4300008: pomo_armario_peque_o
+    4300010: pantalla_001
+    4300012: sup_caja_peqe001
+    4300014: soporte_pantalla_001
+    4300016: base_televisor
+    4300018: tablon_estante_superior
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

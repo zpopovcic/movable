@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 1eab7dc171e815c4ab05fd222c08fbb9
+timeCreated: 1431960723
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Lamp
+    100004: Null_3 Extrude_NURBS
+    100006: Null_3 Extrude_NURBS Rounding_1
+    100008: Null_3 Extrude_NURBS Rounding_1 Cap_1
+    100010: Null_3 Extrude_NURBS Rounding_2
+    100012: Null_3 Extrude_NURBS Rounding_2 Cap_2
+    100014: Null_3 Extrude_NURBS_1
+    100016: Null_3 Extrude_NURBS_2 Circle_14 Circle2
+    100018: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_18
+    100020: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_211
+    100022: Null_3 Extrude_NURBS_2 Circle_14 Circle_15
+    100024: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_14
+    100026: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_22
+    100028: Null_3 Extrude_NURBS_21 Circle_11 Circle1
+    100030: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_111
+    100032: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_29
+    100034: Null_3 Extrude_NURBS_21 Circle_11 Circle_1
+    100036: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_112
+    100038: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_212
+    100040: Null_3 Extrude_NURBS_22 Circle_12 Circle
+    100042: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_13
+    100044: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_23
+    100046: Null_3 Extrude_NURBS_22 Circle_12 Circle_13
+    100048: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_17
+    100050: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_26
+    100052: Null_3 Null Sweep_NURBS
+    100054: Null_3 Null Sweep_NURBS Cap_19
+    100056: Null_3 Null Sweep_NURBS Cap_28
+    100058: Null_3 Null Sweep_NURBS_1
+    100060: Null_3 Null Sweep_NURBS_1 Cap_110
+    100062: Null_3 Null Sweep_NURBS_1 Cap_210
+    100064: Null_3 Null_1 Sweep_NURBS1
+    100066: Null_3 Null_1 Sweep_NURBS1 Cap_15
+    100068: Null_3 Null_1 Sweep_NURBS1 Cap_25
+    100070: Null_3 Null_1 Sweep_NURBS_11
+    100072: Null_3 Null_1 Sweep_NURBS_11 Cap_16
+    100074: Null_3 Null_1 Sweep_NURBS_11 Cap_27
+    100076: Null_3 Null_2 Sweep_NURBS3
+    100078: Null_3 Null_2 Sweep_NURBS3 Cap_11
+    100080: Null_3 Null_2 Sweep_NURBS3 Cap_21
+    100082: Null_3 Null_2 Sweep_NURBS_12
+    100084: Null_3 Null_2 Sweep_NURBS_12 Cap_12
+    100086: Null_3 Null_2 Sweep_NURBS_12 Cap_24
+    100088: //RootNode
+    400000: Camera
+    400002: Lamp
+    400004: Null_3 Extrude_NURBS
+    400006: Null_3 Extrude_NURBS Rounding_1
+    400008: Null_3 Extrude_NURBS Rounding_1 Cap_1
+    400010: Null_3 Extrude_NURBS Rounding_2
+    400012: Null_3 Extrude_NURBS Rounding_2 Cap_2
+    400014: Null_3 Extrude_NURBS_1
+    400016: Null_3 Extrude_NURBS_2 Circle_14 Circle2
+    400018: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_18
+    400020: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_211
+    400022: Null_3 Extrude_NURBS_2 Circle_14 Circle_15
+    400024: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_14
+    400026: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_22
+    400028: Null_3 Extrude_NURBS_21 Circle_11 Circle1
+    400030: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_111
+    400032: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_29
+    400034: Null_3 Extrude_NURBS_21 Circle_11 Circle_1
+    400036: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_112
+    400038: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_212
+    400040: Null_3 Extrude_NURBS_22 Circle_12 Circle
+    400042: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_13
+    400044: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_23
+    400046: Null_3 Extrude_NURBS_22 Circle_12 Circle_13
+    400048: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_17
+    400050: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_26
+    400052: Null_3 Null Sweep_NURBS
+    400054: Null_3 Null Sweep_NURBS Cap_19
+    400056: Null_3 Null Sweep_NURBS Cap_28
+    400058: Null_3 Null Sweep_NURBS_1
+    400060: Null_3 Null Sweep_NURBS_1 Cap_110
+    400062: Null_3 Null Sweep_NURBS_1 Cap_210
+    400064: Null_3 Null_1 Sweep_NURBS1
+    400066: Null_3 Null_1 Sweep_NURBS1 Cap_15
+    400068: Null_3 Null_1 Sweep_NURBS1 Cap_25
+    400070: Null_3 Null_1 Sweep_NURBS_11
+    400072: Null_3 Null_1 Sweep_NURBS_11 Cap_16
+    400074: Null_3 Null_1 Sweep_NURBS_11 Cap_27
+    400076: Null_3 Null_2 Sweep_NURBS3
+    400078: Null_3 Null_2 Sweep_NURBS3 Cap_11
+    400080: Null_3 Null_2 Sweep_NURBS3 Cap_21
+    400082: Null_3 Null_2 Sweep_NURBS_12
+    400084: Null_3 Null_2 Sweep_NURBS_12 Cap_12
+    400086: Null_3 Null_2 Sweep_NURBS_12 Cap_24
+    400088: //RootNode
+    2300000: Null_3 Extrude_NURBS
+    2300002: Null_3 Extrude_NURBS Rounding_1
+    2300004: Null_3 Extrude_NURBS Rounding_1 Cap_1
+    2300006: Null_3 Extrude_NURBS Rounding_2
+    2300008: Null_3 Extrude_NURBS Rounding_2 Cap_2
+    2300010: Null_3 Extrude_NURBS_1
+    2300012: Null_3 Extrude_NURBS_2 Circle_14 Circle2
+    2300014: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_18
+    2300016: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_211
+    2300018: Null_3 Extrude_NURBS_2 Circle_14 Circle_15
+    2300020: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_14
+    2300022: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_22
+    2300024: Null_3 Extrude_NURBS_21 Circle_11 Circle1
+    2300026: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_111
+    2300028: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_29
+    2300030: Null_3 Extrude_NURBS_21 Circle_11 Circle_1
+    2300032: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_112
+    2300034: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_212
+    2300036: Null_3 Extrude_NURBS_22 Circle_12 Circle
+    2300038: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_13
+    2300040: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_23
+    2300042: Null_3 Extrude_NURBS_22 Circle_12 Circle_13
+    2300044: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_17
+    2300046: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_26
+    2300048: Null_3 Null Sweep_NURBS
+    2300050: Null_3 Null Sweep_NURBS Cap_19
+    2300052: Null_3 Null Sweep_NURBS Cap_28
+    2300054: Null_3 Null Sweep_NURBS_1
+    2300056: Null_3 Null Sweep_NURBS_1 Cap_110
+    2300058: Null_3 Null Sweep_NURBS_1 Cap_210
+    2300060: Null_3 Null_1 Sweep_NURBS1
+    2300062: Null_3 Null_1 Sweep_NURBS1 Cap_15
+    2300064: Null_3 Null_1 Sweep_NURBS1 Cap_25
+    2300066: Null_3 Null_1 Sweep_NURBS_11
+    2300068: Null_3 Null_1 Sweep_NURBS_11 Cap_16
+    2300070: Null_3 Null_1 Sweep_NURBS_11 Cap_27
+    2300072: Null_3 Null_2 Sweep_NURBS3
+    2300074: Null_3 Null_2 Sweep_NURBS3 Cap_11
+    2300076: Null_3 Null_2 Sweep_NURBS3 Cap_21
+    2300078: Null_3 Null_2 Sweep_NURBS_12
+    2300080: Null_3 Null_2 Sweep_NURBS_12 Cap_12
+    2300082: Null_3 Null_2 Sweep_NURBS_12 Cap_24
+    3300000: Null_3 Extrude_NURBS
+    3300002: Null_3 Extrude_NURBS Rounding_1
+    3300004: Null_3 Extrude_NURBS Rounding_1 Cap_1
+    3300006: Null_3 Extrude_NURBS Rounding_2
+    3300008: Null_3 Extrude_NURBS Rounding_2 Cap_2
+    3300010: Null_3 Extrude_NURBS_1
+    3300012: Null_3 Extrude_NURBS_2 Circle_14 Circle2
+    3300014: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_18
+    3300016: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_211
+    3300018: Null_3 Extrude_NURBS_2 Circle_14 Circle_15
+    3300020: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_14
+    3300022: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_22
+    3300024: Null_3 Extrude_NURBS_21 Circle_11 Circle1
+    3300026: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_111
+    3300028: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_29
+    3300030: Null_3 Extrude_NURBS_21 Circle_11 Circle_1
+    3300032: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_112
+    3300034: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_212
+    3300036: Null_3 Extrude_NURBS_22 Circle_12 Circle
+    3300038: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_13
+    3300040: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_23
+    3300042: Null_3 Extrude_NURBS_22 Circle_12 Circle_13
+    3300044: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_17
+    3300046: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_26
+    3300048: Null_3 Null Sweep_NURBS
+    3300050: Null_3 Null Sweep_NURBS Cap_19
+    3300052: Null_3 Null Sweep_NURBS Cap_28
+    3300054: Null_3 Null Sweep_NURBS_1
+    3300056: Null_3 Null Sweep_NURBS_1 Cap_110
+    3300058: Null_3 Null Sweep_NURBS_1 Cap_210
+    3300060: Null_3 Null_1 Sweep_NURBS1
+    3300062: Null_3 Null_1 Sweep_NURBS1 Cap_15
+    3300064: Null_3 Null_1 Sweep_NURBS1 Cap_25
+    3300066: Null_3 Null_1 Sweep_NURBS_11
+    3300068: Null_3 Null_1 Sweep_NURBS_11 Cap_16
+    3300070: Null_3 Null_1 Sweep_NURBS_11 Cap_27
+    3300072: Null_3 Null_2 Sweep_NURBS3
+    3300074: Null_3 Null_2 Sweep_NURBS3 Cap_11
+    3300076: Null_3 Null_2 Sweep_NURBS3 Cap_21
+    3300078: Null_3 Null_2 Sweep_NURBS_12
+    3300080: Null_3 Null_2 Sweep_NURBS_12 Cap_12
+    3300082: Null_3 Null_2 Sweep_NURBS_12 Cap_24
+    4300000: Null_3 Null_1 Sweep_NURBS1 Cap_25
+    4300002: Null_3 Null Sweep_NURBS_1 Cap_210
+    4300004: Null_3 Extrude_NURBS Rounding_2
+    4300006: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_112
+    4300008: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_13
+    4300010: Null_3 Null_2 Sweep_NURBS3
+    4300012: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_29
+    4300014: Null_3 Extrude_NURBS_22 Circle_12 Circle
+    4300016: Null_3 Null Sweep_NURBS
+    4300018: Null_3 Null_2 Sweep_NURBS_12 Cap_24
+    4300020: Null_3 Extrude_NURBS
+    4300022: Null_3 Null Sweep_NURBS Cap_19
+    4300024: Null_3 Null_1 Sweep_NURBS_11 Cap_16
+    4300026: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_14
+    4300028: Null_3 Extrude_NURBS Rounding_1
+    4300030: Null_3 Extrude_NURBS Rounding_1 Cap_1
+    4300032: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_17
+    4300034: Null_3 Extrude_NURBS Rounding_2 Cap_2
+    4300036: Null_3 Null Sweep_NURBS_1
+    4300038: Null_3 Extrude_NURBS_2 Circle_14 Circle_15
+    4300040: Null_3 Extrude_NURBS_21 Circle_11 Circle_1
+    4300042: Null_3 Extrude_NURBS_1
+    4300044: Null_3 Null_2 Sweep_NURBS_12
+    4300046: Null_3 Extrude_NURBS_2 Circle_14 Circle_15 Cap_22
+    4300048: Null_3 Null_1 Sweep_NURBS1 Cap_15
+    4300050: Null_3 Extrude_NURBS_22 Circle_12 Circle_13 Cap_26
+    4300052: Null_3 Extrude_NURBS_22 Circle_12 Circle_13
+    4300054: Null_3 Null Sweep_NURBS Cap_28
+    4300056: Null_3 Extrude_NURBS_21 Circle_11 Circle_1 Cap_212
+    4300058: Null_3 Null_2 Sweep_NURBS_12 Cap_12
+    4300060: Null_3 Null_1 Sweep_NURBS1
+    4300062: Null_3 Extrude_NURBS_22 Circle_12 Circle Cap_23
+    4300064: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_18
+    4300066: Null_3 Extrude_NURBS_2 Circle_14 Circle2
+    4300068: Null_3 Extrude_NURBS_2 Circle_14 Circle2 Cap_211
+    4300070: Null_3 Null_1 Sweep_NURBS_11 Cap_27
+    4300072: Null_3 Null_2 Sweep_NURBS3 Cap_21
+    4300074: Null_3 Null_1 Sweep_NURBS_11
+    4300076: Null_3 Extrude_NURBS_21 Circle_11 Circle1
+    4300078: Null_3 Null_2 Sweep_NURBS3 Cap_11
+    4300080: Null_3 Extrude_NURBS_21 Circle_11 Circle1 Cap_111
+    4300082: Null_3 Null Sweep_NURBS_1 Cap_110
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
