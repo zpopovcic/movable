@@ -1,33 +1,77 @@
 fileFormatVersion: 2
-guid: 5df0257f69e8d774384b6ade4bbdefe2
-timeCreated: 1431958228
+guid: 1792918d89765a24091f8f47bb3f7d09
+timeCreated: 1432093354
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: Camera
-    100002: default_1_1
-    100004: default_1_2
-    100006: default_1_3
-    100008: Lamp
-    100010: //RootNode
-    400000: Camera
-    400002: default_1_1
-    400004: default_1_2
-    400006: default_1_3
-    400008: Lamp
-    400010: //RootNode
-    2300000: default_1_1
-    2300002: default_1_2
-    2300004: default_1_3
-    3300000: default_1_1
-    3300002: default_1_2
-    3300004: default_1_3
-    4300000: default_1_2
-    4300002: default_1_3
-    4300004: default_1_1
-    7400000: Default Take
-    9500000: //RootNode
+    100000: Arc_Object_01
+    100002: Arc_Object_02
+    100004: Arc_Object_03
+    100006: Arc_Object_04
+    100008: Arc_Object_05
+    100010: Arc_Object_06
+    100012: Arc_Object_07
+    100014: Arc_Object_08
+    100016: Arc_Object_09
+    100018: Arc_Object_10
+    100020: Arc_Object_11
+    100022: Arc_Object_12
+    100024: Arc_Object_13
+    100026: //RootNode
+    400000: Arc_Object_01
+    400002: Arc_Object_02
+    400004: Arc_Object_03
+    400006: Arc_Object_04
+    400008: Arc_Object_05
+    400010: Arc_Object_06
+    400012: Arc_Object_07
+    400014: Arc_Object_08
+    400016: Arc_Object_09
+    400018: Arc_Object_10
+    400020: Arc_Object_11
+    400022: Arc_Object_12
+    400024: Arc_Object_13
+    400026: //RootNode
+    2300000: Arc_Object_01
+    2300002: Arc_Object_02
+    2300004: Arc_Object_03
+    2300006: Arc_Object_04
+    2300008: Arc_Object_05
+    2300010: Arc_Object_06
+    2300012: Arc_Object_07
+    2300014: Arc_Object_08
+    2300016: Arc_Object_09
+    2300018: Arc_Object_10
+    2300020: Arc_Object_11
+    2300022: Arc_Object_12
+    2300024: Arc_Object_13
+    3300000: Arc_Object_01
+    3300002: Arc_Object_02
+    3300004: Arc_Object_03
+    3300006: Arc_Object_04
+    3300008: Arc_Object_05
+    3300010: Arc_Object_06
+    3300012: Arc_Object_07
+    3300014: Arc_Object_08
+    3300016: Arc_Object_09
+    3300018: Arc_Object_10
+    3300020: Arc_Object_11
+    3300022: Arc_Object_12
+    3300024: Arc_Object_13
+    4300000: Arc_Object_01
+    4300002: Arc_Object_02
+    4300004: Arc_Object_03
+    4300006: Arc_Object_04
+    4300008: Arc_Object_13
+    4300010: Arc_Object_05
+    4300012: Arc_Object_06
+    4300014: Arc_Object_07
+    4300016: Arc_Object_08
+    4300018: Arc_Object_12
+    4300020: Arc_Object_09
+    4300022: Arc_Object_10
+    4300024: Arc_Object_11
   materials:
     importMaterials: 1
     materialName: 0
@@ -81,7 +125,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

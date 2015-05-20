@@ -30,6 +30,17 @@ public class ObjectGalleryLoader : MonoBehaviour {
 			sprites.Add(tmpSprites[i]);
 			generateButton(sprites[i], i);
 		}
+
+		resizePanel();
+	}
+
+	private void resizePanel() {
+		int newDeltaY = Mathf.Max(0, ((sprites.Count - 1) / 3) * 357 - 1388);
+		
+		if (newDeltaY > 0) {
+			gameObject.transform.GetComponentInParent<RectTransform>().sizeDelta = new Vector2(0, newDeltaY);
+			gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition = new Vector2(0, gameObject.transform.GetComponentInParent<RectTransform>().anchoredPosition.y - newDeltaY / 2);
+		}	
 	}
 	
 	private void generateButton(Sprite Sprite, int position) {

@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: ee6d2b63247efd040b70ce11181bbb94
+timeCreated: 1432092641
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: table
+    100004: table_leg1
+    100006: table_leg1_Cap_12
+    100008: table_leg1_Cap_23
+    100010: table_leg2
+    100012: table_leg2_Cap_11
+    100014: table_leg2_Cap_2
+    100016: table_leg3
+    100018: table_leg3_Cap_13
+    100020: table_leg3_Cap_21
+    100022: table_leg4
+    100024: table_leg4_Cap_1
+    100026: table_leg4_Cap_22
+    400000: //RootNode
+    400002: table
+    400004: table_leg1
+    400006: table_leg1_Cap_12
+    400008: table_leg1_Cap_23
+    400010: table_leg2
+    400012: table_leg2_Cap_11
+    400014: table_leg2_Cap_2
+    400016: table_leg3
+    400018: table_leg3_Cap_13
+    400020: table_leg3_Cap_21
+    400022: table_leg4
+    400024: table_leg4_Cap_1
+    400026: table_leg4_Cap_22
+    2300000: table
+    2300002: table_leg1
+    2300004: table_leg1_Cap_12
+    2300006: table_leg1_Cap_23
+    2300008: table_leg2
+    2300010: table_leg2_Cap_11
+    2300012: table_leg2_Cap_2
+    2300014: table_leg3
+    2300016: table_leg3_Cap_13
+    2300018: table_leg3_Cap_21
+    2300020: table_leg4
+    2300022: table_leg4_Cap_1
+    2300024: table_leg4_Cap_22
+    3300000: table
+    3300002: table_leg1
+    3300004: table_leg1_Cap_12
+    3300006: table_leg1_Cap_23
+    3300008: table_leg2
+    3300010: table_leg2_Cap_11
+    3300012: table_leg2_Cap_2
+    3300014: table_leg3
+    3300016: table_leg3_Cap_13
+    3300018: table_leg3_Cap_21
+    3300020: table_leg4
+    3300022: table_leg4_Cap_1
+    3300024: table_leg4_Cap_22
+    4300000: table
+    4300002: table_leg1
+    4300004: table_leg1_Cap_12
+    4300006: table_leg1_Cap_23
+    4300008: table_leg2
+    4300010: table_leg2_Cap_11
+    4300012: table_leg2_Cap_2
+    4300014: table_leg3
+    4300016: table_leg3_Cap_13
+    4300018: table_leg3_Cap_21
+    4300020: table_leg4
+    4300022: table_leg4_Cap_1
+    4300024: table_leg4_Cap_22
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
